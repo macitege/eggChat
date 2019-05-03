@@ -1,0 +1,25 @@
+{
+  "name": "eggchat",
+  "version": "1.0.0",
+  "description": "Chat application",
+  "main": "app.js",
+  "scripts": {
+    "test": "test",
+    "start": "nodemon app.js node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "eggChat"
+  },
+  "keywords": [
+    "chat",
+    "socket.io"
+  ],
+  "author": "macitege",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "nodemon": "^1.19.0",
+    "socket.io": "^2.2.0"
+  }
+}
